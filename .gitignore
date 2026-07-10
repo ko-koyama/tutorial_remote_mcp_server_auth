@@ -1,0 +1,15 @@
+# Terraform
+iac/.terraform/
+iac/terraform.tfstate
+iac/terraform.tfstate.backup
+iac/tfplan
+iac/build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Ruff
+.ruff_cache/
