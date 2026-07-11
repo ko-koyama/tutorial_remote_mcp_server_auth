@@ -1,8 +1,18 @@
 # Terraform
 iac/.terraform/
-iac/terraform.tfstate
-iac/terraform.tfstate.backup
-iac/tfplan
+iac/*.tfstate
+iac/*.tfstate.*
+iac/crash.log
+iac/crash.*.log
+iac/*.tfvars
+iac/*.tfvars.json
+iac/override.tf
+iac/override.tf.json
+iac/*_override.tf
+iac/*_override.tf.json
+iac/.terraform.tfstate.lock.info
+iac/.terraformrc
+iac/terraform.rc
 iac/build/
 
 # Python
