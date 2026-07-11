@@ -1,7 +1,7 @@
 variable "project_name" {
   description = "リソース名のプレフィックスとして使用する名前"
   type        = string
-  default     = "tutorial-mcp"
+  default     = "tutorial-remote-mcp-server-auth"
 }
 
 variable "aws_region" {

@@ -1,5 +1,5 @@
 {
-  "name": "tutorial_remote_mcp_auth",
+  "name": "tutorial_remote_mcp_server_auth",
   "image": "mcr.microsoft.com/devcontainers/python:3",
   "features": {
     "ghcr.io/devcontainers/features/node:1": {},
