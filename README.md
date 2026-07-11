@@ -4,7 +4,7 @@
 
 ## 構成
 
-- `iac/` : Terraform によるインフラ定義（Cognito, AgentCore Gateway, Lambda, DynamoDB）
+- `terraform/` : Terraform によるインフラ定義（Cognito, AgentCore Gateway, Lambda, DynamoDB）
 - `src/list_comments_handler.py` : Gateway ターゲットの実体。ユーザ（`sub`）に紐づくデータを DynamoDB から取得する
 - `src/interceptor_handler.py` : Gateway のインターセプタ。リクエスト内の JWT から `sub` を取り出し、ツール呼び出しの引数に注入する
 
